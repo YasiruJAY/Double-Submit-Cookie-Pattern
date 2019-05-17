@@ -52,8 +52,11 @@ if(!isset($_SESSION['id'])){
 
                 <div id="formFooter">
                 <input type="submit" class="fadeIn fourth" name="submit" value="Submit!">
-                </div>
                 </form>
+                
+                <a href="logout.php"><input type="button" class="fadeIn fourth" name="logout" value="Log out"></a>
+
+                </div>
             </div>
         </div>
     </body>

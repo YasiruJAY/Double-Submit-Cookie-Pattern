@@ -38,6 +38,10 @@ if(!isset($_SESSION['id'])){
                     }
                 ?>
                 <br><br>
+
+                <div id="formFooter">
+                <a href="logout.php"><input type="button" class="fadeIn fourth" name="logout" value="Log out"></a>
+                </div>
                 
             </div>
         </div>

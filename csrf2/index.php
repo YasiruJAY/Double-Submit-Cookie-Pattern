@@ -10,6 +10,7 @@ if(isset($_POST['username'],$_POST['password'])){
 
 	if($uname == 'user' && $pwd == 'csrf2'){
         session_start();
+        
         $_SESSION['id'] = session_id();                 //generating session identifier
         $_SESSION['token'] = token::generateToken();    //generating token using generateToken() method of the token class
 
